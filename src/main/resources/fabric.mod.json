@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "cooldownborder",
+  "version": "${version}",
+  "name": "Cooldown Border",
+  "description": "Displays a border around the screen based on weapon cooldown.",
+  "authors": [
+    "Psipheron"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/cooldownborder/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.psipheron.cooldownborder.CooldownBorderClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "~1.20.4",
+    "java": ">=17",
+    "fabric-api": "*"
+  }
+}
